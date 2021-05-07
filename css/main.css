@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Navbar */
+
+.navbar .navbar-nav {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.navbar .navbar-nav li {
+    margin-right: 40px;
+}
+
+.navbar .navbar-nav li a {
+    font-weight: bold;
+}
+
+
+.nav-group {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/* Image Background */
+
+.image-background img {
+    height: auto;
+    width: 100%;
+}
+
+/* Story Section */
+
+.story-section {
+    margin-top: 100px;
+}
+
+.story-section .row .col {
+    padding: 100px;
+}
+
+/* */
+
+.text-image .text-section {
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Montserrat';
+}
+
+.text-image .text-section .btn {
+    padding: 10px 30px;
+    background: #c8a27a;
+    text-decoration: none;
+    color: white;
+    border-radius: 40px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 16px -6px #777;
+}
+
+.text-image .text-section .btn:hover {
+    background: rgb(255, 218, 185);
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.text-image .row .image-section img {
+    border-radius: 5%;
+}
+
+/* Menu Section */
+
+.menu-section {
+    margin-top: 150px;
+    font-family: 'Montserrat';
+}
+
+.menu-section .card {
+    border: none;
+    cursor: pointer;
+}
+
+.menu-section .card .card-img-top {
+    transition: 0.4s ease-in-out;
+}
+
+.menu-section .card .card-img-top:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.menu-section .card .card-img-top {
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+.menu-section .card .card-body {
+    text-align: center;
+}
+
+.menu-section .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px 30px;
+    background: #c8a27a;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 16px -6px #777;
+}
+
+.menu-section .btn:hover {
+    background: rgb(255, 218, 185);
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+/* Location Section */ 
+
+.location-section .row .col {
+    padding: 100px;
+}
+
+.location-section .text-section h3 {
+    letter-spacing: 10px;
+}
+
+.location-section .text-section .btn {
+    font-size: 12px;
+}
+
+/* Footer */
+
+.footer {
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer .footer-social {
+    text-align: center;
+}
+
+.footer .footer-social .footer-social-links i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #000;
+    margin-right: 5px;
+    color: #fff;
+    transition: 0.6s ease-in-out;
+}
+
+.footer .footer-social .footer-social-links i:hover {
+    transform: scale(1.5);
+    transition: 0.6s ease-in-out;
+}
+
+.footer .footer-social .footer-social-links .fa-facebook-f {
+    background-color: #3B5998;
+}
+
+.footer .footer-social .footer-social-links .fa-instagram {
+    background-color: #e95950;
+}
